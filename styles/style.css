@@ -1,4 +1,9 @@
    /* body style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+    margin:0;
+}
  /* navigation */
  .web-intro{
      padding: 10px;
@@ -23,13 +28,8 @@
  }
  .menu-bar a {
     text-decoration: none;
-    color:whitesmoke;
+    color:blanchedalmond;
  }
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #E5E5E5;
-    margin:0;
-}
                                             /* first section  */
 .container{
     background-color: #FFFFFF;
@@ -136,3 +136,94 @@ footer p span{
 }
             /* End of the main css */
             /* media query responsive */
+        /* (Mobile Version) */
+    @media only screen and (max-width:600px) {
+       .web-intro{
+     padding: 10px;
+     grid-template-columns: repeat(2,0.5fr);
+     grid-column-gap:10px ;
+ }
+ .logo-bar{
+    font-size: 12px;
+ }
+ .logo-bar img{
+   width:22px;
+   height:30px;  
+ }
+ .menu-bar{
+     grid-template-columns: repeat(5,1.5fr);
+     font-size: 11px;
+ }
+ .menu-bar img{
+     width:35px;
+     height: 35px;
+ }
+ .menu-bar a{
+    padding-left:10px;
+ }                                           /* first section  */
+.container{
+    margin:15px 5px 15px;
+    padding: 10px 15px 20px 10px;
+}
+.title p{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+                    /* Players */
+.top-player{
+    font-size: 10px;
+    grid-template-columns:repeat(2,1fr);
+}
+.player{
+    padding-bottom: 8px;
+}
+.player img {
+    height:35px;
+    width:35px;
+    padding-right: 8px;
+}
+                     /* Blogs */
+.top-blog {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 15px;
+}
+.blog img{
+    width: 90px;
+    height: 60px;
+    padding-right:8px;
+}
+.blog-detail {
+    font-size: 10px;
+}
+                    /* second section */
+.courses{
+    grid-template-columns: repeat(1,1fr);
+}
+.course{
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding:7px;
+    box-shadow: 3px 3px 3px wheat;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.course img {
+    width:100%;
+}
+.course-detail {
+    grid-column-gap: 75px;
+}
+.course-duration {
+    width: 60px;
+    height: 15px;
+    border-radius: 15px;
+    padding: 0px 6px 14px;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+        /* second section end */
+footer p{
+    font-size: 10px;
+}
+ }
+
