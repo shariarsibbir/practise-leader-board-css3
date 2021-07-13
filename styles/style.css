@@ -10,11 +10,11 @@
  .logo-bar{
      display: flex;
      font-size: 22px;
-     color:wheat;
+     color:papayawhip;
  }
  .logo-bar img{
-   width: 25px;
-   height: 45px;  
+   width:42px;
+   height:50px;  
  }
  .menu-bar{
      display: grid;
