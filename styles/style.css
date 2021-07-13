@@ -1,0 +1,138 @@
+   /* body style */
+ /* navigation */
+ .web-intro{
+     padding: 10px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-column-gap:200px ;
+     background-color: navy;
+ }
+ .logo-bar{
+     display: flex;
+     font-size: 22px;
+     color:wheat;
+ }
+ .logo-bar img{
+   width: 25px;
+   height: 45px;  
+ }
+ .menu-bar{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     align-items: center;
+ }
+ .menu-bar a {
+    text-decoration: none;
+    color:whitesmoke;
+ }
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+    margin:0;
+}
+                                            /* first section  */
+.container{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin:35px 10px 35px;
+    padding: 20px 30px 40px 20px;
+}
+.title p{
+    color:#562EFF;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+                    /* Players */
+.top-player{
+    display: grid;
+    font-size: 18px;
+    grid-template-columns:repeat(3,1fr);
+}
+.player{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.player img {
+    height:56px;
+    width:56px;
+    padding-right: 16px;
+}
+                     /* Blogs */
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+    padding-right:16px;
+}
+.blog-detail p{
+    color:grey;
+}
+.blog-detail p a {
+    text-decoration: none;
+    color:palevioletred;
+}
+                    /* second section */
+.courses{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+}
+.course{
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding:15px;
+    box-shadow: 5px 5px 5px wheat;
+}
+.course img {
+    width:100%;
+}
+.course-detail {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 150px;
+    align-items: center;
+}
+.course-ratings {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+.course-ratings .filled {
+    color:orange;
+}
+.course-ratings .empty {
+    color:#AEAEAE;
+}
+.course-duration {
+    width: 90px;
+    height: 30px;
+    background-color: #FFE4E8;
+    color:#FF4A60;
+    border: 1px solid #FFE4E8;
+    border-radius: 15px;
+    padding: 0px 10px 15px;
+    box-shadow: 10px 10px 10px gainsboro;
+}
+        /* second section end */
+footer p{
+    text-align: center;
+    background-color:palegreen;
+    color:black;
+}
+footer p span{
+    color:#FF4A60;
+}
+            /* End of the main css */
+            /* media query responsive */
